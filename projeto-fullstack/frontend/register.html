@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Registrar</h1>
+    </header>
+    <main>
+        <form id="registerForm">
+            <label for="nomeUsuario">Nome de Usuário:</label>
+            <input type="text" id="nomeUsuario" name="nomeUsuario" required>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            <label for="papel">Papel:</label>
+            <select id="papel" name="papel">
+                <option value="funcionario">Funcionário</option>
+                <option value="gerente">Gerente</option>
+                <option value="administrador">Administrador</option>
+            </select>
+            <button type="submit">Registrar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Indústrias Wayne</p>
+    </footer>
+    <script src="js/auth.js"></script>
+</body>
+</html>
